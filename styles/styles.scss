@@ -45,6 +45,7 @@ body
     width: 50%;
     height: 100%;
     padding: 55px;
+    display: grid;
     
     h1
     {
@@ -52,37 +53,39 @@ body
         font-family: $inter;
         color: $mainHeading;
         font-size: 2.5rem;
+        margin: auto 0;
         spam
         {
             color: $accent;
             font-size: 2.5rem;
         }  
     }
+    
     .paraghrap
     {
-        margin-top: 35px;
+        width: 85%;
         font-family: $inter;
         color: $mainParaghrap;
     }
+    
     .stat
     {
+        bottom: 0;
         width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin: auto auto 0 auto;
         
-        .stat-heading
+        h1 
         {
-            width: 100%;
-            height: auto;
+            margin: auto 0 5px 0;
+            grid-row: 1 / 2;
+            font-size: 1.5rem;
+            text-transform: uppercase;
         }
-        
-        .stat-name
+        p 
         {
-            width: 100%;
-            height: auto;
-            font-family: $lexend;
             color: $mainParaghrap;
             text-transform: uppercase;
         }

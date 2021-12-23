@@ -34,37 +34,39 @@ body {
   width: 50%;
   height: 100%;
   padding: 55px;
+  display: grid;
 }
 .card-text h1 {
   font-weight: 700;
   font-family: "Inter", sans-serif;
   color: white;
   font-size: 2.5rem;
+  margin: auto 0;
 }
 .card-text h1 spam {
   color: #aa5cdb;
   font-size: 2.5rem;
 }
 .card-text .paraghrap {
-  margin-top: 35px;
+  width: 85%;
   font-family: "Inter", sans-serif;
   color: rgba(255, 255, 255, 0.75);
 }
 .card-text .stat {
+  bottom: 0;
   width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: auto auto 0 auto;
 }
-.card-text .stat .stat-heading {
-  width: 100%;
-  height: auto;
+.card-text .stat h1 {
+  margin: auto 0 5px 0;
+  grid-row: 1/2;
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }
-.card-text .stat .stat-name {
-  width: 100%;
-  height: auto;
-  font-family: "Lexend Deca", sans-serif;
+.card-text .stat p {
   color: rgba(255, 255, 255, 0.75);
   text-transform: uppercase;
 }
