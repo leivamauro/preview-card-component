@@ -1,0 +1,81 @@
+/*Primari colors*/
+/*Neutral*/
+/*Fonts*/
+/*400, 700*/
+/*400*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #090b1a;
+}
+
+.container {
+  width: 1111px;
+  height: 445px;
+  background-color: #1b1938;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-text {
+  width: 50%;
+  height: 100%;
+  padding: 55px;
+}
+.card-text h1 {
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 2.5rem;
+}
+.card-text h1 spam {
+  color: #aa5cdb;
+  font-size: 2.5rem;
+}
+.card-text .paraghrap {
+  margin-top: 35px;
+  font-family: "Inter", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+}
+.card-text .stat {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-text .stat .stat-heading {
+  width: 100%;
+  height: auto;
+}
+.card-text .stat .stat-name {
+  width: 100%;
+  height: auto;
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  text-transform: uppercase;
+}
+
+.card-image {
+  width: 50%;
+  height: 100%;
+  background-image: url(../images/image-header-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

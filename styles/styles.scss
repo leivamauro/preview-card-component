@@ -1,0 +1,100 @@
+/*Primari colors*/
+$mainBg: hsl(233, 47%, 7%);
+$cardBg: hsl(244, 38%, 16%);
+$accent: hsl(277, 64%, 61%);
+/*Neutral*/
+$mainHeading: hsl(0, 0%, 100%);
+$mainParaghrap: hsla(0, 0%, 100%, 0.75);
+$statHeadings: hsla(0, 0%, 100%, 0.6);
+/*Fonts*/
+$inter: 'Inter', sans-serif; /*400, 700*/
+$lexend: 'Lexend Deca', sans-serif;/*400*/
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+body
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: $mainBg;
+}
+
+.container
+{
+    width: 1111px;
+    height: 445px;
+    background-color: $cardBg;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-text
+{
+    width: 50%;
+    height: 100%;
+    padding: 55px;
+    
+    h1
+    {
+        font-weight: 700;
+        font-family: $inter;
+        color: $mainHeading;
+        font-size: 2.5rem;
+        spam
+        {
+            color: $accent;
+            font-size: 2.5rem;
+        }  
+    }
+    .paraghrap
+    {
+        margin-top: 35px;
+        font-family: $inter;
+        color: $mainParaghrap;
+    }
+    .stat
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .stat-heading
+        {
+            width: 100%;
+            height: auto;
+        }
+        
+        .stat-name
+        {
+            width: 100%;
+            height: auto;
+            font-family: $lexend;
+            color: $mainParaghrap;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.card-image
+{
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
