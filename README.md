@@ -4,7 +4,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## Table of contents
 
-  - [The challenge](https://www.frontendmentor.io/solutions/stats-preview-card-component-responsive-8A9SpNQr-)
+  - [The challenge](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
   - [Screenshot](./screenshot.png)
   
 
@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [my solution](https://github.com/leivamauro/preview-card-component)
+- Solution URL: [my solution](https://www.frontendmentor.io/solutions/stats-preview-card-component-responsive-8A9SpNQr-)
 - Live Site URL: [live site](https://leivamauro.github.io/preview-card-component/)
 
 ### Built with
