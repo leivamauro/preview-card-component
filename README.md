@@ -38,6 +38,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [mauro](https://github.com/leivamauro)
+- My GitHub - [mauro](https://github.com/leivamauro)
 - Frontend Mentor - [@mauro](https://www.frontendmentor.io/profile/leivamauro)
 
