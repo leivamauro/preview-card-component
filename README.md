@@ -21,7 +21,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [my solution](https://github.com/leivamauro/preview-card-component)
-- Live Site URL: [live site](https://your-live-site-url.com)
+- Live Site URL: [live site](https://leivamauro.github.io/preview-card-component/)
 
 ### Built with
 
