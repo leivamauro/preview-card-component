@@ -16,12 +16,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/leivamauro/preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [my solution](https://www.frontendmentor.io/solutions/stats-preview-card-component-responsive-8A9SpNQr-)
+- Live Site URL: [live site](https://leivamauro.github.io/preview-card-component/)
 
 ### Built with
 
@@ -38,6 +38,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [mauro](https://github.com/leivamauro)
+- My GitHub - [mauro](https://github.com/leivamauro)
 - Frontend Mentor - [@mauro](https://www.frontendmentor.io/profile/leivamauro)
 
